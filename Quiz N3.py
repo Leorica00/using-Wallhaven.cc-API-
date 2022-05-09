@@ -50,7 +50,7 @@
 # #
 # # cursor.executemany('''INSERT INTO wallpapers (id, url, views, favorites, category, create_date) values (?, ?, ?, ?, ?, ?)''', wallpapers_list)
 # # conn.commit()
-
+# conn.close()
 
 
 
